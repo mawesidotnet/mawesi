@@ -6,10 +6,18 @@ body{
 }
 
 header{
-	position: relative;
+	position: fixed;
 	background-color: #000000;
 	height: 48px;
+	width: 100%;
 	border-bottom: 2px solid #ffffff;
+	z-index:1000;
+}
+
+div.header{
+	position: relative;
+	height: 48px;
+	width: 100%;
 }
 
 section.section1{
@@ -17,6 +25,7 @@ section.section1{
 	background-color: rgb(106,187,228);
 	height: 400px;
 	width: 100%;
+	border-top: 48px solid transparent;
 }
 
 div.section1{
