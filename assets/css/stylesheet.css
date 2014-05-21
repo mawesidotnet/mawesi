@@ -1,0 +1,108 @@
+@import url(http://fonts.googleapis.com/css?family=Mouse+Memoirs|Amatic+SC);
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+header{
+	position: relative;
+	background-color: #000000;
+	height: 48px;
+	border-bottom: 2px solid #ffffff;
+}
+
+section.section1{
+	position: relative;
+	background-color: rgb(106,187,228);
+	height: 400px;
+	width: 100%;
+}
+
+div.section1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family:'Mouse Memoirs';
+	color: rgb(255,255,255);
+	text-align: center;
+}
+
+section.section2{
+	position: relative;
+	background-color: rgb(245,245,245);
+	height: 600px;
+	width: 100%;
+}
+
+div.section2{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family:'Mouse Memoirs';
+	color: rgb(0,0,0);
+	text-align: center;
+}
+
+img.logo_mini{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+ul.nav_options{
+	position: absolute;
+	float: left;
+	list-style-type:none;
+	bottom: 0px;
+	margin:0;
+	padding:0;
+	margin-left: 20px;
+}
+
+li.nav_option{
+	display:inline;
+	padding: 6px;
+}
+
+li a{
+	text-decoration: none;
+	color: rgb(245,245,245);
+	font-family:'Amatic SC';
+	font-size: 26px;
+	font-weight: bold;
+}
+
+div.shadow{
+	width: 100%;
+	height: 4px;
+	background-color: rgb(169,195,42);
+}
+
+footer{
+	position: relative;
+	height: 100px;
+	background-color: rgb(91,97,113);
+}
+
+div.footer{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-family:'Amatic SC';
+	color: rgb(255,255,255);
+	text-align: center;
+	font-size: 26px;
+}
